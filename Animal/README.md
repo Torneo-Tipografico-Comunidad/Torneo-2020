@@ -1,4 +1,4 @@
-Animal is a font esigned to help the community that is in search of lost animals, animals to adopt, donor animals, even those who are looking for donations for shelters.
+Animal is a font designed to help the community that is in search of lost animals, animals to adopt, donor animals, even those who are looking for donations for shelters.
 
 It was developed, as part of the 1st Typographic Tournament of the Letrástica Community 2020, by team Bedepecus, consisting of:
 
@@ -13,7 +13,7 @@ The Tournament was a 5-week long friendly competition, among the Mexican and Lat
 Feel free to contribute to the development of Animal. This branch is mantained by Jorge Iván Moreno Majul, approach him to inquire about the direction of the project and where effort is most needed.
 
 
----
+(https://github.com/Torneo-Tipografico-Comunidad/Torneo-2020/blob/master/Animal/specimen/Animal-Light_Regular_Bold-v1.001-specimen-001.jpg)
 
 
 Animal es una fuente Pensada para ayudar a la comunidad que está en busca de animales perdidos, animales para adoptar, animales donadores, incluso quien busca donativos para albergues.

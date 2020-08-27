@@ -1,4 +1,4 @@
-Animal is a font esigned to help the community that is in search of lost animals, animals to adopt, donor animals, even those who are looking for donations for shelters.
+Animal is a font designed to help the community that is in search of lost animals, animals to adopt, donor animals, even those who are looking for donations for shelters.
 
 It was developed, as part of the 1st Typographic Tournament of the Letrástica Community 2020, by team Bedepecus, consisting of:
 
