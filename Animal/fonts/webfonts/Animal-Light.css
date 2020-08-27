@@ -1,0 +1,12 @@
+/* Webfont: Animal-Light */@font-face {
+    font-family: 'AnimalLight';
+    src: url('Animal-Light.eot'); /* IE9 Compat Modes */
+    src: url('Animal-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Animal-Light.woff') format('woff'), /* Modern Browsers */
+         url('Animal-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Animal-Light.svg#Animal-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

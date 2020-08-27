@@ -1,0 +1,16 @@
+# Prefix: 
+
+
+feature aalt {
+feature salt;
+} aalt;
+
+feature salt {
+sub [a aacute adieresis atilde g k y yacute ydieresis Q zero ampersand] by [a.salt aacute.salt adieresis.salt atilde.salt g.salt k.salt y.salt yacute.salt ydieresis.salt Q.alt zero.salt ampersand.salt];
+} salt;
+
+feature liga {
+sub f i by fi;
+sub f l by fl;
+} liga;
+

@@ -1,0 +1,12 @@
+/* Webfont: Animal-Bold */@font-face {
+    font-family: 'AnimalBold';
+    src: url('Animal-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Animal-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Animal-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Animal-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Animal-Bold.svg#Animal-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
