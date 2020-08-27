@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="weight"/>
+    <data name="lineInverted" value="False"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="instances"/>
+    <data name="previewtext" value="abcdefghijklmnopqrstuvwxyz"/>
+    <data name="verticalPreviewAxis" value="None"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- axis definitions -->
+    <axis maximum="1000.000000" minimum="0.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.764" g="0.000" r="0.989"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Acrata_Beta" filename="Serifas_Text_Heavy.ufo" sortorder="3" stylename="Heavy">
+        <location>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Acrata_Beta_1" filename="Serifas_Text-REGULAR.ufo" sortorder="0" stylename="Regular">
+        <location>
+            <dimension name="weight" xvalue="0.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Acrata" filename="../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Acrata-wght675.14.ufo" sortorder="2" stylename="wght675.14">
+        <location>
+            <dimension name="weight" xvalue="675.137761"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Acrata" filename="../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Acrata-wght283.67.ufo" sortorder="1" stylename="wght283.67">
+        <location>
+            <dimension name="weight" xvalue="283.672902"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Acrata" filename="../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Acrata-wght1000.00.ufo" sortorder="4" stylename="wght1000.00">
+        <location>
+            <dimension name="weight" xvalue="1400.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+</designspace>

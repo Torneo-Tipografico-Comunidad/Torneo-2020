@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="495"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <component base="exclam" yScale="-1" xOffset="82" yOffset="727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.0264,0.8567,0.7521,1</string>
+    </dict>
+  </lib>
+</glyph>
