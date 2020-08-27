@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="2">
+  <advance width="824"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="55.9355" y="599.134" type="line"/>
+      <point x="119.579" y="540" type="line"/>
+      <point x="10" y="588" type="line"/>
+      <point x="9.9982" y="740.488" type="line"/>
+      <point x="298.998" y="740.488" type="line"/>
+      <point x="298.998" y="588.488" type="line"/>
+      <point x="180.117" y="540" type="line"/>
+      <point x="217.241" y="604.329" type="line"/>
+      <point x="448.538" y="61.6592" type="line"/>
+      <point x="362.51" y="57.8613" type="line"/>
+      <point x="590.521" y="620" type="line"/>
+      <point x="602.388" y="551" type="line"/>
+      <point x="516" y="588" type="line"/>
+      <point x="515.998" y="740.488" type="line"/>
+      <point x="804.998" y="740.488" type="line"/>
+      <point x="804.998" y="588.488" type="line"/>
+      <point x="690.207" y="544.843" type="line"/>
+      <point x="743.998" y="598.488" type="line"/>
+      <point x="488.547" y="0.1518" type="line"/>
+      <point x="311.547" y="0.1518" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="630"/>
+  <guideline angle="0" x="0" y="129"/>
+</glyph>
