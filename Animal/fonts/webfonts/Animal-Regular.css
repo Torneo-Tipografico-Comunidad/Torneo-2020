@@ -1,0 +1,12 @@
+/* Webfont: Animal-Regular */@font-face {
+    font-family: 'Animal';
+    src: url('Animal-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Animal-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Animal-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Animal-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Animal-Regular.svg#Animal-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresis" format="2">
+	<advance width="229"/>
+	<unicode hex="00EF"/>
+	<anchor x="114" y="500" name="_top"/>
+	<outline>
+		<contour>
+			<point x="191" y="585" type="curve" smooth="yes"/>
+			<point x="225" y="585"/>
+			<point x="248" y="608"/>
+			<point x="248" y="643" type="curve" smooth="yes"/>
+			<point x="248" y="676"/>
+			<point x="225" y="697"/>
+			<point x="191" y="697" type="curve" smooth="yes"/>
+			<point x="159" y="697"/>
+			<point x="136" y="675"/>
+			<point x="136" y="642" type="curve" smooth="yes"/>
+			<point x="136" y="608"/>
+			<point x="159" y="585"/>
+		</contour>
+		<contour>
+			<point x="36" y="585" type="curve" smooth="yes"/>
+			<point x="70" y="585"/>
+			<point x="92" y="608"/>
+			<point x="92" y="643" type="curve" smooth="yes"/>
+			<point x="92" y="676"/>
+			<point x="70" y="697"/>
+			<point x="36" y="697" type="curve" smooth="yes"/>
+			<point x="3" y="697"/>
+			<point x="-19" y="675"/>
+			<point x="-19" y="642" type="curve" smooth="yes"/>
+			<point x="-19" y="608"/>
+			<point x="3" y="585"/>
+		</contour>
+		<component base="dotlessi"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>dotlessi</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
