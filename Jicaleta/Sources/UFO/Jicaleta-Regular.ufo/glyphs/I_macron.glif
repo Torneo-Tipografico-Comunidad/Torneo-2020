@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron" format="2">
+	<advance width="376"/>
+	<unicode hex="012A"/>
+	<anchor x="188" y="923" name="top"/>
+	<outline>
+		<contour>
+			<point x="42" y="842" type="curve"/>
+			<point x="292" y="842" type="line" smooth="yes"/>
+			<point x="323" y="842"/>
+			<point x="334" y="865"/>
+			<point x="334" y="923" type="curve"/>
+			<point x="84" y="923" type="line" smooth="yes"/>
+			<point x="53" y="923"/>
+			<point x="42" y="894"/>
+		</contour>
+		<component base="I"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:39:53 +0000</string>
+		</dict>
+	</lib>
+</glyph>

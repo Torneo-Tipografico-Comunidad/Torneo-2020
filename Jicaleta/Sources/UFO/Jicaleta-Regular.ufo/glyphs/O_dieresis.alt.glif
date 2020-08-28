@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresis.alt" format="2">
+	<advance width="824"/>
+	<outline>
+		<contour>
+			<point x="790" y="630" type="curve" smooth="yes"/>
+			<point x="831" y="630"/>
+			<point x="849" y="648"/>
+			<point x="849" y="691" type="curve" smooth="yes"/>
+			<point x="849" y="735"/>
+			<point x="830" y="753"/>
+			<point x="790" y="753" type="curve" smooth="yes"/>
+			<point x="747" y="753"/>
+			<point x="723" y="735"/>
+			<point x="723" y="691" type="curve" smooth="yes"/>
+			<point x="723" y="648"/>
+			<point x="747" y="630"/>
+		</contour>
+		<contour>
+			<point x="42" y="630" type="curve" smooth="yes"/>
+			<point x="83" y="630"/>
+			<point x="101" y="648"/>
+			<point x="101" y="691" type="curve" smooth="yes"/>
+			<point x="101" y="735"/>
+			<point x="82" y="753"/>
+			<point x="42" y="753" type="curve" smooth="yes"/>
+			<point x="0" y="753"/>
+			<point x="-25" y="735"/>
+			<point x="-25" y="691" type="curve" smooth="yes"/>
+			<point x="-25" y="648"/>
+			<point x="0" y="630"/>
+		</contour>
+		<component base="O" xOffset="10"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:40:04 +0000</string>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
+</glyph>

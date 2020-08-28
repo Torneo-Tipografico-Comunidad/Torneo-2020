@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA78B" format="2">
+	<advance width="274"/>
+	<unicode hex="A78B"/>
+	<outline>
+		<contour>
+			<point x="73" y="743" type="curve"/>
+			<point x="102" y="287" type="line"/>
+			<point x="184" y="287" type="line"/>
+			<point x="218" y="616" type="line" smooth="yes"/>
+			<point x="229" y="719"/>
+			<point x="216" y="748"/>
+			<point x="154" y="751" type="curve" smooth="yes"/>
+			<point x="133" y="752"/>
+			<point x="106" y="749"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:39:53 +0000</string>
+		</dict>
+	</lib>
+</glyph>

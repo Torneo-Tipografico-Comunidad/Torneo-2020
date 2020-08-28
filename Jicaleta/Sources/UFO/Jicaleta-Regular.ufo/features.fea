@@ -1,0 +1,352 @@
+@Uppercase = [A Aacute Adieresis Adieresis.alt Agrave Amacron Atilde B C D E Eacute Edieresis Egrave Emacron uni1EBC F G H I Iacute Idieresis Igrave Imacron Itilde J J.alt K L M N Ntilde O Oacute Odieresis Odieresis.alt Ograve Omacron Otilde P Q Q.alt R S uniA78B T U Uacute Udieresis Udieresis.alt Ugrave Umacron Utilde V W X Y Z
+];
+languagesystem DFLT dflt;
+feature aalt {
+feature lnum;
+feature pnum;
+feature tnum;
+feature onum;
+feature case;
+feature zero;
+feature ss01;
+feature ss02;
+} aalt ;
+
+feature ccmp {
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb uni0308 gravecomb uni0304 tildecomb];
+	@CombiningNonTopAccents = [uni0331];
+	sub [i]' @CombiningTopAccents by [dotlessi];
+	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [dotlessi];
+	@Markscomb = [uni0308 gravecomb acutecomb tildecomb uni0304 uni0331 grave tilde macron];
+	@MarkscombCase = [uni0308.case gravecomb.case acutecomb.case tildecomb.case uni0304.case uni0331.case grave.case tilde.case macron.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+} ccmp ;
+
+feature lnum {
+sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
+} lnum ;
+
+feature pnum {
+sub one.tf by one.lf;
+sub two.tf by two.lf;
+sub three.tf by three.lf;
+sub four.tf by four.lf;
+sub five.tf by five.lf;
+sub six.tf by six.lf;
+sub seven.tf by seven.lf;
+sub eight.tf by eight.lf;
+sub nine.tf by nine.lf;
+sub zero.tosf by zero;
+sub one.tosf by one;
+sub two.tosf by two;
+sub three.tosf by three;
+sub four.tosf by four;
+sub five.tosf by five;
+sub six.tosf by six;
+sub seven.tosf by seven;
+sub eight.tosf by eight;
+sub nine.tosf by nine;
+} pnum ;
+
+feature tnum {
+sub one.lf by one.tf;
+sub two.lf by two.tf;
+sub three.lf by three.tf;
+sub four.lf by four.tf;
+sub five.lf by five.tf;
+sub six.lf by six.tf;
+sub seven.lf by seven.tf;
+sub eight.lf by eight.tf;
+sub nine.lf by nine.tf;
+sub zero by zero.tosf;
+sub one by one.tosf;
+sub two by two.tosf;
+sub three by three.tosf;
+sub four by four.tosf;
+sub five by five.tosf;
+sub six by six.tosf;
+sub seven by seven.tosf;
+sub eight by eight.tosf;
+sub nine by nine.tosf;
+} tnum ;
+
+feature onum {
+sub zero.lf by zero;
+sub one.lf by one;
+sub two.lf by two;
+sub three.lf by three;
+sub four.lf by four;
+sub five.lf by five;
+sub six.lf by six;
+sub seven.lf by seven;
+sub eight.lf by eight;
+sub nine.lf by nine;
+sub one.tf by one.tosf;
+sub two.tf by two.tosf;
+sub three.tf by three.tosf;
+sub four.tf by four.tosf;
+sub five.tf by five.tosf;
+sub six.tf by six.tosf;
+sub seven.tf by seven.tosf;
+sub eight.tf by eight.tosf;
+sub nine.tf by nine.tosf;
+} onum ;
+
+feature case {
+sub uni0308 by uni0308.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub tildecomb by tildecomb.case;
+sub uni0304 by uni0304.case;
+sub uni0331 by uni0331.case;
+sub grave by grave.case;
+sub tilde by tilde.case;
+sub macron by macron.case;
+sub macronbelow by macronbelow.case;
+sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
+sub one.tf by one.lf;
+sub two.tf by two.lf;
+sub three.tf by three.lf;
+sub four.tf by four.lf;
+sub five.tf by five.lf;
+sub six.tf by six.lf;
+sub seven.tf by seven.lf;
+sub eight.tf by eight.lf;
+sub nine.tf by nine.lf;
+sub zero.tosf by zero.lf;
+sub one.tosf by one.lf;
+sub two.tosf by two.lf;
+sub three.tosf by three.lf;
+sub four.tosf by four.lf;
+sub five.tosf by five.lf;
+sub six.tosf by six.lf;
+sub seven.tosf by seven.lf;
+sub eight.tosf by eight.lf;
+sub nine.tosf by nine.lf;
+} case ;
+
+feature zero {
+sub zero by zero.zero;
+sub zero.lf by zero.lf.zero;
+} zero ;
+
+feature ss01 {
+sub Q by Q.alt;
+sub J by J.alt;
+sub ntilde by ntilde.alt;
+} ss01 ;
+
+feature ss02 {
+sub Adieresis by Adieresis.alt;
+sub Odieresis by Odieresis.alt;
+sub Udieresis by Udieresis.alt;
+} ss02 ;
+
+@MMK_L_A = [ A ];
+@MMK_L_V = [ V W ];
+@MMK_L_n = [ h m n ];
+@MMK_R_A = [ A ];
+@MMK_R_V = [ W ];
+@MMK_R_h = [ h ];
+@MMK_R_n = [ i n ];
+@MMK_R_o = [ e o q ];
+@MMK_R_v = [ v y ];
+
+feature kern {
+	lookup kern_latn {
+	lookupflag IgnoreMarks;
+		pos A T -40;
+		pos A V -100;
+		pos A Y -110;
+		pos Aacute Udieresis -60;
+		pos F a -30;
+		pos L T -110;
+		pos L V -90;
+		pos P A -90;
+		pos P a -30;
+		pos T A -40;
+		pos T u 0;
+		pos V a -80;
+		pos V e -90;
+		pos V i -40;
+		pos V n -40;
+		pos V o -90;
+		pos V q -90;
+		pos V u -30;
+		pos Y A -120;
+		pos h o -30;
+		pos l o -15;
+		pos m o -30;
+		pos n b -20;
+		pos n o -30;
+		pos o b 0;
+	subtable;
+		pos @MMK_L_V @MMK_R_A -110;
+		pos T @MMK_R_o -50;
+		pos N @MMK_R_o -20;
+		pos @MMK_L_A @MMK_R_V -110;
+		pos H @MMK_R_o -20;
+	subtable;
+		pos y @MMK_R_o -30;
+		pos @MMK_L_n @MMK_R_v -60;
+		pos @MMK_L_n w -44;
+	subtable;
+	} kern_latn;
+	lookupflag 0;
+} kern;
+
+	markClass [uni0308] <anchor 294 540> @mark_top;
+	markClass [gravecomb] <anchor 304 540> @mark_top;
+	markClass [acutecomb] <anchor 295 540> @mark_top;
+	markClass [tildecomb] <anchor 334 540> @mark_top;
+	markClass [uni0304] <anchor 300 540> @mark_top;
+	markClass [uni0331] <anchor 300 0> @mark_bottom;
+	markClass [uni0308.case] <anchor 377 735> @mark_top;
+	markClass [gravecomb.case] <anchor 389 735> @mark_top;
+	markClass [acutecomb.case] <anchor 395 735> @mark_top;
+	markClass [tildecomb.case] <anchor 333 715> @mark_top;
+	markClass [uni0304.case] <anchor 315 735> @mark_top;
+	markClass [uni0331.case] <anchor 300 0> @mark_bottom;
+feature mark {
+	lookup markDFLT {
+		pos base [macronbelow]  <anchor 300 -195> mark @mark_bottom;
+		pos base [macronbelow.case]  <anchor 300 -197> mark @mark_bottom;
+		pos base [Amacronbelow]  <anchor 390 -197> mark @mark_bottom <anchor 380 735> mark @mark_top;
+		pos base [Emacronbelow]  <anchor 325 -197> mark @mark_bottom <anchor 325 735> mark @mark_top;
+		pos base [Imacronbelow]  <anchor 188 -195> mark @mark_bottom <anchor 188 735> mark @mark_top;
+		pos base [Omacronbelow]  <anchor 397 -197> mark @mark_bottom <anchor 397 735> mark @mark_top;
+		pos base [Umacronbelow]  <anchor 431 -197> mark @mark_bottom <anchor 438 735> mark @mark_top;
+		pos base [amacronbelow]  <anchor 297 -195> mark @mark_bottom <anchor 271 540> mark @mark_top;
+		pos base [emacronbelow]  <anchor 278 -195> mark @mark_bottom <anchor 292 540> mark @mark_top;
+		pos base [imacronbelow]  <anchor 183 -195> mark @mark_bottom <anchor 166 540> mark @mark_top;
+		pos base [omacronbelow]  <anchor 317 -195> mark @mark_bottom <anchor 317 540> mark @mark_top;
+		pos base [umacronbelow]  <anchor 346 -195> mark @mark_bottom <anchor 325 540> mark @mark_top;
+	} markDFLT;
+	lookup marklatn {
+		pos base [A]  <anchor 390 0> mark @mark_bottom <anchor 380 735> mark @mark_top;
+		pos base [Aacute]  <anchor 390 0> mark @mark_bottom <anchor 380 970> mark @mark_top;
+		pos base [Adieresis]  <anchor 390 0> mark @mark_bottom <anchor 380 933> mark @mark_top;
+		pos base [Agrave]  <anchor 390 0> mark @mark_bottom <anchor 376 970> mark @mark_top;
+		pos base [Amacron]  <anchor 390 0> mark @mark_bottom <anchor 385 923> mark @mark_top;
+		pos base [Atilde]  <anchor 390 0> mark @mark_bottom <anchor 380 989> mark @mark_top;
+		pos base [E]  <anchor 325 0> mark @mark_bottom <anchor 325 735> mark @mark_top;
+		pos base [Eacute]  <anchor 325 0> mark @mark_bottom <anchor 325 970> mark @mark_top;
+		pos base [Edieresis]  <anchor 325 0> mark @mark_bottom <anchor 325 933> mark @mark_top;
+		pos base [Egrave]  <anchor 325 0> mark @mark_bottom <anchor 321 970> mark @mark_top;
+		pos base [Emacron]  <anchor 325 0> mark @mark_bottom <anchor 330 923> mark @mark_top;
+		pos base [uni1EBC]  <anchor 325 0> mark @mark_bottom <anchor 325 989> mark @mark_top;
+		pos base [I]  <anchor 188 0> mark @mark_bottom <anchor 188 735> mark @mark_top;
+		pos base [Iacute]  <anchor 188 0> mark @mark_bottom <anchor 188 970> mark @mark_top;
+		pos base [Idieresis]  <anchor 188 0> mark @mark_bottom <anchor 188 933> mark @mark_top;
+		pos base [Igrave]  <anchor 188 0> mark @mark_bottom <anchor 184 970> mark @mark_top;
+		pos base [Imacron]  <anchor 188 0> mark @mark_bottom <anchor 188 923> mark @mark_top;
+		pos base [Itilde]  <anchor 188 0> mark @mark_bottom <anchor 188 989> mark @mark_top;
+		pos base [N]  <anchor 423 0> mark @mark_bottom <anchor 433 715> mark @mark_top;
+		pos base [Ntilde]  <anchor 423 0> mark @mark_bottom <anchor 433 969> mark @mark_top;
+		pos base [O]  <anchor 397 0> mark @mark_bottom <anchor 397 735> mark @mark_top;
+		pos base [Oacute]  <anchor 397 0> mark @mark_bottom <anchor 397 970> mark @mark_top;
+		pos base [Odieresis]  <anchor 397 0> mark @mark_bottom <anchor 397 933> mark @mark_top;
+		pos base [Ograve]  <anchor 397 0> mark @mark_bottom <anchor 393 970> mark @mark_top;
+		pos base [Omacron]  <anchor 397 0> mark @mark_bottom <anchor 402 923> mark @mark_top;
+		pos base [Otilde]  <anchor 397 0> mark @mark_bottom <anchor 397 989> mark @mark_top;
+		pos base [Q]  <anchor 397 0> mark @mark_bottom <anchor 397 735> mark @mark_top;
+		pos base [U]  <anchor 431 0> mark @mark_bottom <anchor 438 735> mark @mark_top;
+		pos base [Uacute]  <anchor 431 0> mark @mark_bottom <anchor 438 970> mark @mark_top;
+		pos base [Udieresis]  <anchor 431 0> mark @mark_bottom <anchor 438 933> mark @mark_top;
+		pos base [Ugrave]  <anchor 431 0> mark @mark_bottom <anchor 434 970> mark @mark_top;
+		pos base [Umacron]  <anchor 431 0> mark @mark_bottom <anchor 443 923> mark @mark_top;
+		pos base [Utilde]  <anchor 431 0> mark @mark_bottom <anchor 438 989> mark @mark_top;
+		pos base [Y]  <anchor 399 16> mark @mark_bottom <anchor 389 751> mark @mark_top;
+		pos base [Adieresis.alt]  <anchor 390 0> mark @mark_bottom <anchor 380 735> mark @mark_top;
+		pos base [Odieresis.alt]  <anchor 407 0> mark @mark_bottom <anchor 407 735> mark @mark_top;
+		pos base [Q.alt]  <anchor 397 0> mark @mark_bottom <anchor 397 735> mark @mark_top;
+		pos base [Udieresis.alt]  <anchor 431 0> mark @mark_bottom <anchor 438 735> mark @mark_top;
+		pos base [a]  <anchor 297 0> mark @mark_bottom <anchor 271 540> mark @mark_top;
+		pos base [aacute]  <anchor 297 0> mark @mark_bottom <anchor 271 816> mark @mark_top;
+		pos base [adieresis]  <anchor 297 0> mark @mark_bottom <anchor 271 762> mark @mark_top;
+		pos base [agrave]  <anchor 297 0> mark @mark_bottom <anchor 297 816> mark @mark_top;
+		pos base [amacron]  <anchor 297 0> mark @mark_bottom <anchor 271 749> mark @mark_top;
+		pos base [atilde]  <anchor 297 0> mark @mark_bottom <anchor 271 769> mark @mark_top;
+		pos base [e]  <anchor 278 0> mark @mark_bottom <anchor 292 540> mark @mark_top;
+		pos base [eacute]  <anchor 278 0> mark @mark_bottom <anchor 292 816> mark @mark_top;
+		pos base [edieresis]  <anchor 278 0> mark @mark_bottom <anchor 292 762> mark @mark_top;
+		pos base [egrave]  <anchor 278 0> mark @mark_bottom <anchor 318 816> mark @mark_top;
+		pos base [emacron]  <anchor 278 0> mark @mark_bottom <anchor 292 749> mark @mark_top;
+		pos base [uni1EBD]  <anchor 278 0> mark @mark_bottom <anchor 292 769> mark @mark_top;
+		pos base [i]  <anchor 183 0> mark @mark_bottom <anchor 166 540> mark @mark_top;
+		pos base [dotlessi]  <anchor 183 0> mark @mark_bottom <anchor 166 540> mark @mark_top;
+		pos base [iacute]  <anchor 183 0> mark @mark_bottom <anchor 182 816> mark @mark_top;
+		pos base [idieresis]  <anchor 183 0> mark @mark_bottom <anchor 166 762> mark @mark_top;
+		pos base [igrave]  <anchor 183 0> mark @mark_bottom <anchor 192 816> mark @mark_top;
+		pos base [imacron]  <anchor 183 0> mark @mark_bottom <anchor 166 749> mark @mark_top;
+		pos base [itilde]  <anchor 183 0> mark @mark_bottom <anchor 166 769> mark @mark_top;
+		pos base [n]  <anchor 363 0> mark @mark_bottom <anchor 363 540> mark @mark_top;
+		pos base [ntilde]  <anchor 363 0> mark @mark_bottom <anchor 363 769> mark @mark_top;
+		pos base [o]  <anchor 317 0> mark @mark_bottom <anchor 317 540> mark @mark_top;
+		pos base [oacute]  <anchor 317 0> mark @mark_bottom <anchor 317 816> mark @mark_top;
+		pos base [odieresis]  <anchor 317 0> mark @mark_bottom <anchor 317 762> mark @mark_top;
+		pos base [ograve]  <anchor 317 0> mark @mark_bottom <anchor 343 816> mark @mark_top;
+		pos base [omacron]  <anchor 317 0> mark @mark_bottom <anchor 317 749> mark @mark_top;
+		pos base [otilde]  <anchor 317 0> mark @mark_bottom <anchor 317 769> mark @mark_top;
+		pos base [u]  <anchor 346 0> mark @mark_bottom <anchor 325 540> mark @mark_top;
+		pos base [uacute]  <anchor 346 0> mark @mark_bottom <anchor 325 816> mark @mark_top;
+		pos base [udieresis]  <anchor 346 0> mark @mark_bottom <anchor 325 762> mark @mark_top;
+		pos base [ugrave]  <anchor 346 0> mark @mark_bottom <anchor 351 816> mark @mark_top;
+		pos base [umacron]  <anchor 346 0> mark @mark_bottom <anchor 325 749> mark @mark_top;
+		pos base [utilde]  <anchor 346 0> mark @mark_bottom <anchor 325 769> mark @mark_top;
+		pos base [ntilde.alt]  <anchor 363 0> mark @mark_bottom <anchor 365 769> mark @mark_top;
+	} marklatn;
+	lookupflag 0;
+} mark;
+feature mkmk {
+	lookup mkmk_DFLT_bottom {
+		pos mark [uni0331] <anchor 300 -195> mark @mark_bottom;
+		pos mark [uni0331.case] <anchor 300 -197> mark @mark_bottom;
+	} mkmk_DFLT_bottom;
+	lookup mkmk_DFLT_top {
+		pos mark [uni0308] <anchor 294 762> mark @mark_top;
+		pos mark [gravecomb] <anchor 330 816> mark @mark_top;
+		pos mark [acutecomb] <anchor 295 816> mark @mark_top;
+		pos mark [tildecomb] <anchor 334 769> mark @mark_top;
+		pos mark [uni0304] <anchor 300 749> mark @mark_top;
+		pos mark [uni0308.case] <anchor 377 933> mark @mark_top;
+		pos mark [gravecomb.case] <anchor 385 970> mark @mark_top;
+		pos mark [acutecomb.case] <anchor 395 970> mark @mark_top;
+		pos mark [tildecomb.case] <anchor 333 969> mark @mark_top;
+		pos mark [uni0304.case] <anchor 320 923> mark @mark_top;
+		pos mark [tilde.case] <anchor 345 769> mark @mark_top;
+	} mkmk_DFLT_top;
+	lookupflag 0;
+} mkmk;
+table GDEF {
+ GlyphClassDef [A Aacute Adieresis Agrave Amacron Atilde E Eacute Edieresis Egrave Emacron uni1EBC I Iacute Idieresis Igrave Imacron Itilde N Ntilde O Oacute Odieresis Ograve Omacron Otilde Q U Uacute Udieresis Ugrave Umacron Utilde Y Adieresis.alt Odieresis.alt Q.alt Udieresis.alt a aacute adieresis agrave amacron atilde e eacute edieresis egrave emacron uni1EBD i dotlessi iacute idieresis igrave imacron itilde n ntilde o oacute odieresis ograve omacron otilde u uacute udieresis ugrave umacron utilde ntilde.alt macronbelow macronbelow.case Amacronbelow Emacronbelow Imacronbelow Omacronbelow Umacronbelow amacronbelow emacronbelow imacronbelow omacronbelow umacronbelow],# Base 
+ , # Liga 
+ [uni0308 gravecomb acutecomb tildecomb uni0304 uni0331 uni0308.case gravecomb.case acutecomb.case tildecomb.case uni0304.case uni0331.case], # Mark 
+ ;
+ } GDEF;

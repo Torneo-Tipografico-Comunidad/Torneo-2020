@@ -1,0 +1,1 @@
+Archivos binarios (OTF, TTF, etc) de la fuente con la versión estable más nueva listos para instalar.

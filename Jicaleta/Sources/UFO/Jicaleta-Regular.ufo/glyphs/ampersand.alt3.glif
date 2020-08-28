@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand.alt3" format="2">
+	<advance width="639"/>
+	<outline>
+		<contour>
+			<point x="308" y="-15" type="curve" smooth="yes"/>
+			<point x="397" y="-15"/>
+			<point x="475" y="22"/>
+			<point x="552" y="71" type="curve"/>
+			<point x="552" y="300" type="line" smooth="yes"/>
+			<point x="552" y="331"/>
+			<point x="563" y="347"/>
+			<point x="600" y="347" type="curve" smooth="yes"/>
+			<point x="634" y="347" type="line"/>
+			<point x="634" y="403" type="line"/>
+			<point x="331" y="403" type="line" smooth="yes"/>
+			<point x="232" y="403"/>
+			<point x="176" y="464"/>
+			<point x="176" y="544" type="curve" smooth="yes"/>
+			<point x="176" y="576"/>
+			<point x="185" y="610"/>
+			<point x="206" y="647" type="curve"/>
+			<point x="237" y="659"/>
+			<point x="279" y="667"/>
+			<point x="319" y="667" type="curve" smooth="yes"/>
+			<point x="406" y="667"/>
+			<point x="462" y="630"/>
+			<point x="470" y="531" type="curve"/>
+			<point x="527" y="531" type="line"/>
+			<point x="527" y="717" type="line"/>
+			<point x="452" y="735"/>
+			<point x="402" y="748"/>
+			<point x="325" y="748" type="curve" smooth="yes"/>
+			<point x="181" y="748"/>
+			<point x="65" y="649"/>
+			<point x="65" y="523" type="curve" smooth="yes"/>
+			<point x="65" y="459"/>
+			<point x="100" y="394"/>
+			<point x="185" y="376" type="curve"/>
+			<point x="107" y="358"/>
+			<point x="43" y="303"/>
+			<point x="43" y="202" type="curve" smooth="yes"/>
+			<point x="43" y="43"/>
+			<point x="163" y="-15"/>
+		</contour>
+		<contour>
+			<point x="337" y="67" type="curve" smooth="yes"/>
+			<point x="249" y="67"/>
+			<point x="159" y="100"/>
+			<point x="159" y="197" type="curve" smooth="yes"/>
+			<point x="159" y="296"/>
+			<point x="227" y="340"/>
+			<point x="310" y="340" type="curve" smooth="yes"/>
+			<point x="448" y="340" type="line"/>
+			<point x="448" y="90" type="line"/>
+			<point x="409" y="76"/>
+			<point x="372" y="67"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:40:23 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>O</string>
+			<key>public.markColor</key>
+			<string>0,0.2,0.88,1</string>
+		</dict>
+	</lib>
+</glyph>

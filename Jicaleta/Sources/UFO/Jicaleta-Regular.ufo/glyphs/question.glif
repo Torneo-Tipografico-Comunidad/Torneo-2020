@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question" format="2">
+	<advance width="483"/>
+	<unicode hex="003F"/>
+	<outline>
+		<contour>
+			<point x="132" y="390" type="curve"/>
+			<point x="132" y="224" type="line"/>
+			<point x="235" y="224" type="line"/>
+			<point x="235" y="378" type="line"/>
+			<point x="174" y="331" type="line"/>
+			<point x="329" y="353"/>
+			<point x="445" y="416"/>
+			<point x="445" y="553" type="curve" smooth="yes"/>
+			<point x="445" y="660"/>
+			<point x="406" y="751"/>
+			<point x="240" y="751" type="curve" smooth="yes"/>
+			<point x="157" y="751"/>
+			<point x="72" y="718"/>
+			<point x="38" y="693" type="curve"/>
+			<point x="39" y="542" type="line"/>
+			<point x="95" y="542" type="line"/>
+			<point x="124" y="705" type="line"/>
+			<point x="95" y="644" type="line"/>
+			<point x="133" y="660"/>
+			<point x="178" y="671"/>
+			<point x="217" y="671" type="curve" smooth="yes"/>
+			<point x="296" y="671"/>
+			<point x="338" y="637"/>
+			<point x="338" y="562" type="curve" smooth="yes"/>
+			<point x="338" y="530"/>
+			<point x="333" y="493"/>
+			<point x="322" y="455" type="curve"/>
+			<point x="284" y="422"/>
+			<point x="220" y="404"/>
+		</contour>
+		<contour>
+			<point x="184" y="-12" type="curve" smooth="yes"/>
+			<point x="234" y="-12"/>
+			<point x="255" y="8"/>
+			<point x="255" y="58" type="curve" smooth="yes"/>
+			<point x="255" y="108"/>
+			<point x="233" y="127"/>
+			<point x="186" y="127" type="curve" smooth="yes"/>
+			<point x="139" y="127"/>
+			<point x="117" y="109"/>
+			<point x="117" y="56" type="curve" smooth="yes"/>
+			<point x="117" y="8"/>
+			<point x="137" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:39:53 +0000</string>
+		</dict>
+	</lib>
+</glyph>

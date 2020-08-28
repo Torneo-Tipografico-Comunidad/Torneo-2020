@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.zero" format="2">
+	<advance width="637"/>
+	<outline>
+		<contour>
+			<point x="183" y="85" type="line"/>
+			<point x="509" y="413" type="line"/>
+			<point x="460" y="462" type="line"/>
+			<point x="135" y="133" type="line"/>
+		</contour>
+		<component base="zero" xOffset="-1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:39:53 +0000</string>
+		</dict>
+	</lib>
+</glyph>
