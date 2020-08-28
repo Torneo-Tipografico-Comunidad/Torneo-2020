@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0308" format="2">
+	<advance width="0"/>
+	<unicode hex="0308"/>
+	<anchor x="-294" y="762" name="top"/>
+	<anchor x="-294" y="540" name="_top"/>
+	<outline>
+		<contour>
+			<point x="-189" y="639" type="curve" smooth="yes"/>
+			<point x="-149" y="639"/>
+			<point x="-130" y="657"/>
+			<point x="-130" y="700" type="curve" smooth="yes"/>
+			<point x="-130" y="744"/>
+			<point x="-149" y="762"/>
+			<point x="-189" y="762" type="curve" smooth="yes"/>
+			<point x="-232" y="762"/>
+			<point x="-250" y="744"/>
+			<point x="-250" y="700" type="curve" smooth="yes"/>
+			<point x="-250" y="657"/>
+			<point x="-232" y="639"/>
+		</contour>
+		<contour>
+			<point x="-397" y="639" type="curve" smooth="yes"/>
+			<point x="-356" y="639"/>
+			<point x="-338" y="657"/>
+			<point x="-338" y="700" type="curve" smooth="yes"/>
+			<point x="-338" y="744"/>
+			<point x="-357" y="762"/>
+			<point x="-397" y="762" type="curve" smooth="yes"/>
+			<point x="-439" y="762"/>
+			<point x="-458" y="744"/>
+			<point x="-458" y="700" type="curve" smooth="yes"/>
+			<point x="-458" y="657"/>
+			<point x="-439" y="639"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:39:53 +0000</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.lf" format="2">
+	<advance width="640"/>
+	<outline>
+		<contour>
+			<point x="151" y="0" type="line"/>
+			<point x="278" y="0" type="line"/>
+			<point x="561" y="698" type="line"/>
+			<point x="536" y="735" type="line"/>
+			<point x="98" y="735" type="line"/>
+			<point x="78" y="503" type="line"/>
+			<point x="143" y="500" type="line"/>
+			<point x="168" y="635" type="line"/>
+			<point x="511" y="654" type="line"/>
+			<point x="484" y="681" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2020-08-07 18:39:53 +0000</string>
+		</dict>
+	</lib>
+</glyph>
