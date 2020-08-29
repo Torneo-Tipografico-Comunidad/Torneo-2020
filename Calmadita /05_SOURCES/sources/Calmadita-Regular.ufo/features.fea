@@ -1,0 +1,25 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+
+feature aalt {
+# automatic
+feature case;
+
+} aalt;
+
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb dieresiscomb tildecomb];
+	sub [i]' @CombiningTopAccents by [idotless];
+} ccmp_Other_1;
+
+} ccmp;
+
+feature case {
+# automatic
+sub ampersand by ampersand.case;
+
+} case;

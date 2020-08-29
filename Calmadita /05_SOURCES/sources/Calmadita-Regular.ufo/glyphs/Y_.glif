@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="708"/>
+  <unicode hex="0059"/>
+  <outline>
+    <contour>
+      <point x="311" y="247" type="line"/>
+      <point x="395" y="247" type="line"/>
+      <point x="543" y="506" type="line"/>
+      <point x="649" y="680" type="line"/>
+      <point x="541" y="680" type="line"/>
+      <point x="464" y="506" type="line"/>
+      <point x="328" y="289" type="line"/>
+      <point x="368" y="316" type="line"/>
+      <point x="253" y="506" type="line"/>
+      <point x="174" y="680" type="line"/>
+      <point x="56" y="680" type="line"/>
+      <point x="163" y="506" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="647" type="line"/>
+      <point x="144" y="647" type="line"/>
+      <point x="258" y="671" type="line"/>
+      <point x="258" y="720" type="line"/>
+      <point x="0" y="720" type="line"/>
+      <point x="0" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="560" y="647" type="line"/>
+      <point x="594" y="647" type="line"/>
+      <point x="708" y="671" type="line"/>
+      <point x="708" y="720" type="line"/>
+      <point x="450" y="720" type="line"/>
+      <point x="450" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="301" y="26" type="line"/>
+      <point x="405" y="26" type="line"/>
+      <point x="395" y="278" type="line"/>
+      <point x="311" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="227" y="0" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="485" y="51" type="line"/>
+      <point x="371" y="71" type="line"/>
+      <point x="337" y="71" type="line"/>
+      <point x="227" y="51" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>V</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>V</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/08/06 17:56:26</string>
+    </dict>
+  </lib>
+</glyph>
