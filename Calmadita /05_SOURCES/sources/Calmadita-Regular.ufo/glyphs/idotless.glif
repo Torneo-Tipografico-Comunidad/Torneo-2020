@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="313"/>
+  <unicode hex="0131"/>
+  <anchor x="160" y="490" name="top.LC"/>
+  <outline>
+    <contour>
+      <point x="46" y="0" type="line"/>
+      <point x="286" y="0" type="line"/>
+      <point x="286" y="52" type="line"/>
+      <point x="183" y="73" type="line"/>
+      <point x="149" y="73" type="line"/>
+      <point x="46" y="51" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="426" type="line"/>
+      <point x="120" y="410" type="line"/>
+      <point x="127" y="255" type="line"/>
+      <point x="117" y="28" type="line"/>
+      <point x="217" y="28" type="line"/>
+      <point x="207" y="255" type="line"/>
+      <point x="219" y="490" type="line"/>
+      <point x="184" y="490" type="line"/>
+      <point x="45" y="480" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/08/06 21:22:58</string>
+    </dict>
+  </lib>
+</glyph>

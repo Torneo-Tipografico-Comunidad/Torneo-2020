@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: skia-pathops
+Version: 0.2.0.post2
+Summary: Boolean operations on paths using the Skia library
+Home-page: https://github.com/fonttools/skia-pathops
+Author: Khaled Hosny, Cosimo Lupo
+Author-email: fonttools@googlegroups.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: testing
+Requires-Dist: pytest (<4,>=3.0.0); extra == 'testing'
+Requires-Dist: coverage (<5,>=4.5.1); extra == 'testing'
+Requires-Dist: pytest-xdist (<2,>=1.22.2); extra == 'testing'
+Requires-Dist: pytest-randomly (<2,>=1.2.3); extra == 'testing'
+Requires-Dist: pytest-cython (>=0.1.0); extra == 'testing'
+
+[![Travis CI Status](https://travis-ci.org/fonttools/skia-pathops.svg?branch=master)](https://travis-ci.org/fonttools/skia-pathops)
+[![Appveyor CI Status](https://ci.appveyor.com/api/projects/status/jv7g1e0m0vyopbej?svg=true)](https://ci.appveyor.com/project/fonttools/skia-pathops/branch/master)
+[![PyPI](https://img.shields.io/pypi/v/skia-pathops.svg)](https://pypi.org/project/skia-pathops/)
+
+Python bindings for the [Google Skia](https://skia.org) library's [Path
+Ops](https://skia.org/dev/present/pathops) module, performing boolean
+operations on paths (intersection, union, difference, xor).
+
+Build
+=====
+
+A recent version of [Cython](https://github.com/cython/cython) is
+required to build the package (see the `pyproject.toml` file for
+the minimum required version).
+
+For developers we recommend installing in editable mode using
+`pip install -e .`, and compiling the extension module in the same
+source directory.
+
+
