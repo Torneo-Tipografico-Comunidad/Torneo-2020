@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute.case" format="2">
+  <anchor x="0" y="720" name="_top.UC"/>
+  <outline>
+    <contour>
+      <point x="150" y="934" type="line"/>
+      <point x="101" y="960" type="line"/>
+      <point x="-85" y="822" type="line"/>
+      <point x="-57" y="773" type="line"/>
+      <point x="137" y="876" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/08/06 21:37:03</string>
+    </dict>
+  </lib>
+</glyph>

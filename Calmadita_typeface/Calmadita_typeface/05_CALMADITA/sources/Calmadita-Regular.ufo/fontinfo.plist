@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>780</integer>
+    <key>capHeight</key>
+    <integer>720</integer>
+    <key>descender</key>
+    <integer>-220</integer>
+    <key>familyName</key>
+    <string>Calmadita</string>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2020/07/14 04:06:28</string>
+    <key>openTypeNameDesigner</key>
+    <string>Dafne Martínez, Jorge George, Leonardo Delgado, Iordan Evair, Federico Biagioli</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Sic Typus Ceatus Est</string>
+    <key>openTypeOS2Type</key>
+    <array>
+      <integer>3</integer>
+    </array>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>960</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-226</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>960</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>226</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-20</integer>
+      <integer>0</integer>
+      <integer>490</integer>
+      <integer>510</integer>
+      <integer>720</integer>
+      <integer>740</integer>
+      <integer>780</integer>
+      <integer>800</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-240</integer>
+      <integer>-220</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>490</integer>
+  </dict>
+</plist>
