@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="558"/>
+  <unicode hex="0051"/>
+  <outline>
+    <contour>
+      <point x="384" y="-184" type="curve" smooth="yes"/>
+      <point x="415" y="-184"/>
+      <point x="453" y="-164"/>
+      <point x="505" y="-144" type="curve"/>
+      <point x="498" y="-75" type="line"/>
+      <point x="413" y="-75" type="line"/>
+      <point x="250" y="-10" type="line"/>
+      <point x="203" y="10" type="line"/>
+      <point x="164" y="-59" type="line"/>
+      <point x="245" y="-127"/>
+      <point x="344" y="-184"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

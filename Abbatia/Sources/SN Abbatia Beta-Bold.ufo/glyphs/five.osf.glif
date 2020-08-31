@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.osf" format="2">
+  <advance width="465"/>
+  <outline>
+    <component base="_part.tailFiguresOld" xOffset="31"/>
+    <component base="_part.topFive" xOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.topFive</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

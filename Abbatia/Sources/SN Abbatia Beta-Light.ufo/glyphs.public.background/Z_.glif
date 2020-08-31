@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="2">
+	<advance width="585"/>
+	<outline>
+		<contour>
+			<point x="25" y="0" type="line"/>
+			<point x="180" y="0" type="line"/>
+			<point x="180" y="680" type="line"/>
+			<point x="25" y="680" type="line"/>
+			<point x="25" y="650" type="line"/>
+			<point x="120" y="630" type="line"/>
+			<point x="120" y="50" type="line"/>
+			<point x="25" y="30" type="line"/>
+		</contour>
+		<contour>
+			<point x="135" y="0" type="line"/>
+			<point x="443" y="0" type="line"/>
+			<point x="448" y="15" type="line"/>
+			<point x="458" y="175" type="line"/>
+			<point x="428" y="175" type="line"/>
+			<point x="400" y="45" type="line"/>
+			<point x="135" y="45" type="line"/>
+		</contour>
+		<contour>
+			<point x="174" y="307" type="line"/>
+			<point x="375" y="307" type="line"/>
+			<point x="380" y="352" type="line"/>
+			<point x="174" y="352" type="line"/>
+		</contour>
+		<contour>
+			<point x="420" y="515" type="line"/>
+			<point x="450" y="515" type="line"/>
+			<point x="450" y="675" type="line"/>
+			<point x="435" y="690" type="line"/>
+			<point x="35" y="680" type="line"/>
+			<point x="135" y="635" type="line"/>
+			<point x="390" y="635" type="line"/>
+		</contour>
+	</outline>
+</glyph>

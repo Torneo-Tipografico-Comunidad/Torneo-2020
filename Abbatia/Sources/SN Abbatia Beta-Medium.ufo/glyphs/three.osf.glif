@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.osf" format="2">
+  <advance width="484"/>
+  <anchor x="445" y="126" name="connect"/>
+  <outline>
+    <contour>
+      <point x="445" y="126" type="line"/>
+      <point x="445" y="126" type="line" smooth="yes"/>
+      <point x="445" y="215"/>
+      <point x="381" y="278"/>
+      <point x="274" y="278" type="curve" smooth="yes"/>
+      <point x="260" y="278"/>
+      <point x="231" y="278"/>
+      <point x="220" y="277" type="curve"/>
+      <point x="230" y="247" type="line"/>
+      <point x="432" y="473" type="line"/>
+      <point x="407" y="560" type="line"/>
+      <point x="66" y="560" type="line"/>
+      <point x="36" y="530" type="line"/>
+      <point x="49" y="369" type="line"/>
+      <point x="118" y="369" type="line"/>
+      <point x="150" y="521" type="line"/>
+      <point x="83" y="463" type="line"/>
+      <point x="365" y="463" type="line"/>
+      <point x="334" y="495" type="line"/>
+      <point x="133" y="232" type="line"/>
+      <point x="161" y="190" type="line"/>
+      <point x="172" y="192"/>
+      <point x="208" y="193"/>
+      <point x="225" y="193" type="curve" smooth="yes"/>
+      <point x="295" y="193"/>
+      <point x="333" y="166"/>
+      <point x="333" y="115" type="curve" smooth="yes"/>
+      <point x="333" y="115" type="line"/>
+    </contour>
+    <component base="_part.tailFiguresOld" xOffset="43"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.tailFiguresOld</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

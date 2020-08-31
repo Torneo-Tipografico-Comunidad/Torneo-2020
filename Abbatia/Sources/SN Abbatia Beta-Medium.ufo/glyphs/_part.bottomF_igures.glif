@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.bottomFigures" format="2">
+	<advance width="423"/>
+	<outline>
+		<contour>
+			<point x="19" y="0" type="line"/>
+			<point x="399" y="0" type="line"/>
+			<point x="423" y="25" type="line"/>
+			<point x="422" y="100" type="line"/>
+			<point x="83" y="85" type="line"/>
+			<point x="42" y="93" type="line"/>
+			<point x="0" y="68" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

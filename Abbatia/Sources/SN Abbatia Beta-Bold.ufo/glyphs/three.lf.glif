@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.lf" format="2">
+  <advance width="465"/>
+  <outline>
+    <component base="_part.TailFigures" xOffset="15" yOffset="120"/>
+    <component base="_part.threeTop" xOffset="25"/>
+  </outline>
+</glyph>
