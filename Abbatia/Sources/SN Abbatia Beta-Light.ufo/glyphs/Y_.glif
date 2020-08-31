@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="648"/>
+  <unicode hex="0059"/>
+  <outline>
+    <contour>
+      <point x="199" y="0" type="line"/>
+      <point x="469" y="0" type="line"/>
+      <point x="469" y="30" type="line"/>
+      <point x="364" y="50" type="line"/>
+      <point x="364" y="228" type="line"/>
+      <point x="559" y="630" type="line"/>
+      <point x="648" y="650" type="line"/>
+      <point x="648" y="680" type="line"/>
+      <point x="403" y="680" type="line"/>
+      <point x="403" y="650" type="line"/>
+      <point x="499" y="632" type="line"/>
+      <point x="320" y="252" type="line"/>
+      <point x="350" y="252" type="line"/>
+      <point x="184" y="630" type="line"/>
+      <point x="280" y="650" type="line"/>
+      <point x="280" y="680" type="line"/>
+      <point x="20" y="680" type="line"/>
+      <point x="20" y="650" type="line"/>
+      <point x="114" y="630" type="line"/>
+      <point x="304" y="228" type="line"/>
+      <point x="304" y="50" type="line"/>
+      <point x="199" y="30" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>V</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>V</string>
+    </dict>
+  </lib>
+</glyph>

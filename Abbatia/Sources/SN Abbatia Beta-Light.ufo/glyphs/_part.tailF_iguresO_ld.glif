@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.tailFiguresOld" format="2">
+  <advance width="400"/>
+  <anchor x="400" y="138" name="connect"/>
+  <anchor x="0" y="138" name="_connect"/>
+  <outline>
+    <contour>
+      <point x="400" y="138" type="curve"/>
+      <point x="340" y="127" type="line"/>
+      <point x="340" y="25"/>
+      <point x="225" y="-73"/>
+      <point x="0" y="-91" type="curve"/>
+      <point x="0" y="-120" type="line"/>
+      <point x="28" y="-130" type="line"/>
+      <point x="195" y="-130"/>
+      <point x="400" y="-51"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020-08-31 01:34:27 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k" format="2">
+  <advance width="565"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="436" y="277" type="line"/>
+      <point x="371" y="302" type="line"/>
+      <point x="305" y="301" type="line"/>
+      <point x="269" y="263" type="line"/>
+      <point x="334" y="99" type="line" smooth="yes"/>
+      <point x="365" y="20"/>
+      <point x="381" y="13"/>
+      <point x="440" y="-10" type="curve"/>
+      <point x="565" y="27" type="line"/>
+      <point x="565" y="97" type="line"/>
+      <point x="505" y="117" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="-10" type="line"/>
+      <point x="240" y="0" type="line"/>
+      <point x="240" y="720" type="line"/>
+      <point x="210" y="750" type="line"/>
+      <point x="20" y="715" type="line"/>
+      <point x="20" y="650" type="line"/>
+      <point x="80" y="620" type="line"/>
+      <point x="80" y="20" type="line"/>
+    </contour>
+    <contour>
+      <point x="218" y="158" type="line"/>
+      <point x="550" y="465" type="line"/>
+      <point x="540" y="540" type="line"/>
+      <point x="336" y="539" type="line"/>
+      <point x="331" y="474" type="line"/>
+      <point x="386" y="452" type="line"/>
+      <point x="218" y="251" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=b</string>
+    </dict>
+  </lib>
+</glyph>

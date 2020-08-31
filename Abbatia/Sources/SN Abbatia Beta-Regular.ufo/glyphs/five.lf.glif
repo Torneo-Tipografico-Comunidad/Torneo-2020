@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.lf" format="2">
+  <advance width="501"/>
+  <outline>
+    <component base="_part.TailFigures" xOffset="36" yOffset="119"/>
+    <component base="_part.topFive" xOffset="10" yOffset="119"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.TailFigures</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.topFive</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

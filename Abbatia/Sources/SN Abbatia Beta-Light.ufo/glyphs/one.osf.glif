@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.osf" format="2">
+  <advance width="520"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="480" y="40" type="line"/>
+      <point x="293" y="55" type="line"/>
+      <point x="293" y="555" type="line"/>
+      <point x="278" y="570" type="line"/>
+      <point x="56" y="548" type="line"/>
+      <point x="56" y="512" type="line"/>
+      <point x="233" y="505" type="line"/>
+      <point x="233" y="55" type="line"/>
+      <point x="40" y="40" type="line"/>
+    </contour>
+  </outline>
+</glyph>
