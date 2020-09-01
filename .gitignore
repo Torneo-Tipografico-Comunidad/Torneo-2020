@@ -1,0 +1,4 @@
+#Ignore the following:
+
+.DS_Store
+Thumbs.db
