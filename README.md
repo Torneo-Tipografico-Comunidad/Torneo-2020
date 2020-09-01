@@ -1,3 +1,3 @@
-#1st Typographic Tournament of the Letrástica Community 2020
+# 1st Typographic Tournament of the Letrástica Community 2020
 
-This is the repository for the projects originating from the 1st Typographic Tournament of the Letrástica Community, June 2020, which was a 5-week long friendly competition, among the Mexican and Latin American Type community where 8 Teams, each one a range of designers from beginners to experienced professionals, developed a proposal for a text face optimized for screens. A board of 8 professionals assigned points and gave weekly feedback with many viewers following along on a video call.
+This is the repository for the projects originating from the *1st Typographic Tournament of the Letrástica Community, June 2020* which was a 5-week long friendly competition, among the Mexican and Latin American Type community where 8 Teams, each one a range of designers from beginners to experienced professionals, developed a proposal for a text face optimized for screens. A board of 8 professionals assigned points and gave weekly feedback with many viewers following along on a video call.

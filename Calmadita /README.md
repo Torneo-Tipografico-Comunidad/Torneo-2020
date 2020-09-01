@@ -1,4 +1,4 @@
-#CALMADITA*
+# CALMADITA
 
 Calmadita is a typeface ideal for medium texts in digital environments such as Kindle and Ipad devices. With its dynamic and brutal personality, it was intended for use in educational resources and digital literature for young people and children. But we'd love to see it on whatever project you find it suitable for.
 

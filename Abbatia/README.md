@@ -1,4 +1,4 @@
-#SN Abbatia
+# SN Abbatia
 
 SN Abbatia is a typeface designed specially for heading on screens (≥24 pixels) with the need of lots of personality/character. It optimizes horizontal space by supporting a higher number of glyphs per line. Its morphology is thought for a low demand on pixels.
 

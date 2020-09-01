@@ -1,4 +1,4 @@
-#Jicaleta
+# Jicaleta
 
 {Name of your font} is a font {Your project's brief here}.
 

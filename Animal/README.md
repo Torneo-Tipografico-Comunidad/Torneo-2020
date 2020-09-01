@@ -1,4 +1,4 @@
-#Animal
+# Animal
 
 Animal is a font designed to help the community that is in search of lost animals, animals to adopt, donor animals, even those who are looking for donations for shelters.
 
