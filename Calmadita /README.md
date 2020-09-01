@@ -1,4 +1,4 @@
-**CALMADITA**
+#CALMADITA*
 
 Calmadita is a typeface ideal for medium texts in digital environments such as Kindle and Ipad devices. With its dynamic and brutal personality, it was intended for use in educational resources and digital literature for young people and children. But we'd love to see it on whatever project you find it suitable for.
 
@@ -18,8 +18,7 @@ The tournament was a friendly competition between members of the Mexican and Lat
 Feel free to use and contribute to the development of Calmadita.
 This typeface is maintained by Dafne Martínez, you can approach her to receive more information about the direction of the project and in which areas you can focus your efforts.
 
-
-**CALMADITA**
+***
 
 Calmadita es una fuente ideal para escritos cortos en entornos digitales como dispositivos Kindle y Ipad. Con su personalidad dinámica y brutal fue pensada para su uso en recursos educativos y literatura digital para jóvenes y niños. Pero nos encantaría verla en cualquier proyecto para el que la encuentres adecuada.
 

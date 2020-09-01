@@ -13,11 +13,11 @@ Una muy grata sorpresa en la final es que ¡todos ganamos en varios aspectos!, e
 ¡Te invitamos a que la uses nuestra fuente «Trophy Pro» y nos compartas tus experiencias con ella! Puedes enviar tus comentarios y/o sugerencias a cualquiera de los correos de los integrantes del equipo. Consulta los archivos de licenciamiento.
 
 El Equipo Dagger es:
-Claudia Ramírez: claubecky@gmail.com
-Ashly Nava: hola.letterash@gmail.com
-Brenan Díaz: brenandiaz@outlook.com
-Alexandra Grau: hola.alegrau@gmail.com
-Rafael Ramírez: dgrafaramirez@hotmail.com
+- Claudia Ramírez: claubecky@gmail.com
+- Ashly Nava: hola.letterash@gmail.com
+- Brenan Díaz: brenandiaz@outlook.com
+- Alexandra Grau: hola.alegrau@gmail.com
+- Rafael Ramírez: dgrafaramirez@hotmail.com
 
 ¡Gracias!
 
