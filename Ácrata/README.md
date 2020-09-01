@@ -29,4 +29,4 @@ Fue desarrollada como parte del *1er Torneo Tipográfico Comunidad Letrástica 2
 
 El torneo fue una competencia amistosa entre miembrxs de la comunidad Mexicana y Latinoamericana donde 8 equipos, cada uno compuesto por una gama desde diseñadorxs desde principiantes hasta profesionales con experiencia, desarrollaron una propuesta para una fuente de texto optimizada para pantallas. Un grupo de 8 juecxs, asignaron puntajes y dieron retroalimentación semanalmente mientras muchxs otrxs miembrxs de la comunidad seguían las actividades en una transmisión en video.
 
-Siéntete libre de contribuir al desarrollo de Ácrata. Esta fuente es mantenida por Romina Hernández, acércate a ellx al mail ro[arroba]hernandezz[punto]net para informarte acerca de la dirección del proyecto y dónde es mejor enfocar esfuerzos.
+Siéntete libre de contribuir al desarrollo de Ácrata. Esta fuente es mantenida por Romina Hernández, acércate a ella al mail ro[arroba]hernandezz[punto]net para informarte acerca de la dirección del proyecto y dónde es mejor enfocar esfuerzos.
