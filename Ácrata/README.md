@@ -1,4 +1,4 @@
-#Ácrata
+# Ácrata
 
 Ácrata is a font made to smash the Patriarchy.
 
