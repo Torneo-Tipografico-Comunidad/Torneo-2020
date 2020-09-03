@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="2">
+	<advance width="281"/>
+	<unicode hex="0049"/>
+	<anchor x="141" y="637" name="top"/>
+	<outline>
+		<contour>
+			<point x="93" y="650" type="line"/>
+			<point x="93" y="0" type="line"/>
+			<point x="188" y="0" type="line"/>
+			<point x="188" y="650" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+		</dict>
+	</lib>
+</glyph>

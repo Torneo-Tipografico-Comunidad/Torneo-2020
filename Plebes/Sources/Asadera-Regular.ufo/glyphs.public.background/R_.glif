@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="R" format="2">
+	<advance width="570"/>
+	<outline>
+		<contour>
+			<point x="435" y="0" type="line"/>
+			<point x="555" y="0" type="line"/>
+			<point x="555" y="2" type="line"/>
+			<point x="328" y="374" type="line"/>
+			<point x="217" y="364" type="line"/>
+		</contour>
+	</outline>
+</glyph>
