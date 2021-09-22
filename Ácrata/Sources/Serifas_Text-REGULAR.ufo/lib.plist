@@ -363,7 +363,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
     <false/>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
-    <integer>1</integer>
+    <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
@@ -373,9 +373,9 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.layerName</key>
-    <string>foreground</string>
+    <string>public.default</string>
     <key>com.typemytype.robofont.compileSettings.path</key>
-    <string>/Users/Ro/Desktop/Serifas_Text-REGULAR.otf</string>
+    <string>/Users/Ro/Desktop/Acrata_Text_Beta_4.otf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.guideline.magnetic.EgDokUwvK1</key>

@@ -4,32 +4,34 @@
   <unicode hex="006B"/>
   <outline>
     <contour>
-      <point x="386" y="452" type="line"/>
-      <point x="423" y="439" type="line"/>
-      <point x="555" y="483" type="line"/>
-      <point x="555" y="540" type="line"/>
-      <point x="273" y="540" type="line"/>
-      <point x="273" y="486" type="line"/>
+      <point x="426" y="457" type="line"/>
+      <point x="397" y="449" type="line"/>
+      <point x="559" y="483" type="line"/>
+      <point x="559" y="536" type="line"/>
+      <point x="470" y="540" type="line"/>
+      <point x="427" y="540" type="line"/>
+      <point x="303" y="533" type="line"/>
+      <point x="303" y="480" type="line"/>
     </contour>
     <contour>
-      <point x="348" y="0" type="line"/>
-      <point x="574" y="0" type="line"/>
-      <point x="574" y="60" type="line"/>
-      <point x="448" y="105" type="line"/>
-      <point x="420" y="89" type="line"/>
-      <point x="348" y="60" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="586" y="60" type="line"/>
+      <point x="460" y="105" type="line"/>
+      <point x="433" y="89" type="line"/>
+      <point x="360" y="60" type="line"/>
     </contour>
     <contour>
-      <point x="480" y="473" type="line"/>
-      <point x="409" y="499" type="line"/>
-      <point x="107" y="184" type="line"/>
-      <point x="159" y="131" type="line"/>
+      <point x="485" y="471" type="line"/>
+      <point x="415" y="494" type="line"/>
+      <point x="117" y="179" type="line"/>
+      <point x="160" y="135" type="line"/>
     </contour>
     <contour>
-      <point x="275" y="281" type="line"/>
-      <point x="454" y="12" type="line"/>
-      <point x="511" y="68" type="line"/>
-      <point x="324" y="349" type="line"/>
+      <point x="283" y="280" type="line"/>
+      <point x="468" y="12" type="line"/>
+      <point x="523" y="68" type="line"/>
+      <point x="330" y="348" type="line"/>
     </contour>
     <contour>
       <point x="35" y="0" type="line"/>
@@ -45,8 +47,8 @@
     </contour>
     <contour>
       <point x="150" y="0" type="move"/>
-      <point x="269" y="0" type="line"/>
-      <point x="269" y="60" type="line"/>
+      <point x="257" y="0" type="line"/>
+      <point x="257" y="60" type="line"/>
       <point x="142" y="98" type="line"/>
     </contour>
     <contour>
