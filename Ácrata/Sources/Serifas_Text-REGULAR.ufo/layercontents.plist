@@ -1,18 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <array>
+  <dict>
+    <!-- The top level `axes` key defines a list of axis definitions -->
+    <key>axes</key>
     <array>
-      <string>public.default</string>
-      <string>glyphs</string>
+
+      <!--
+        Each axis definition must have a `name` and the axis `tag` (duplicate
+        the information from the Designspace). `locations` is optional, if you
+        only use format 4 axis values, you don't need to define `locations` on
+        an axis.
+      -->
+      <dict>
+        <key>name</key>
+        <string>Weight</string>
+        <key>tag</key>
+        <string>wght</string>
+
+        <!--
+          `locations` are a list of dictionaries describing stops on the axis. Each
+          dictionary models one of format 1, 2 and 3 of the STAT axis values.
+        -->
+        <key>locations</key>
+        <array>
+          <!--
+            Format 2 must have at least `name`, `value` and `range` with (min,
+            max) values. `flags` is optional.
+          -->
+          <dict>
+            <key>name</key>
+            <string>Thin</string>
+            <key>value</key>
+            <integer>100</integer>
+            <key>range</key>
+            <array>
+              <integer>0</integer>
+              <integer>100</integer>
+            </array>
+          </dict>
+
+        </array>
+      </dict>
+
     </array>
-    <array>
-      <string>background</string>
-      <string>glyphs.background</string>
-    </array>
-    <array>
-      <string>public.background</string>
-      <string>glyphs.public.background</string>
-    </array>
-  </array>
+  </dict>
 </plist>
